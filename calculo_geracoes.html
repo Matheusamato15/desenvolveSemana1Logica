@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+
+        document.write("<br>");
+
+        }
+
+        function mostra(frase){
+
+        document.write(frase);
+        pulaLinha();
+
+        }
+
+        var chegadaPortugueses = 1500;
+        var anoAtual = 2022;
+        var qtdGeracoes = (anoAtual - chegadaPortugueses) / 28;
+
+        mostra("Se passaram " + Math.round(qtdGeracoes) + " gerações!");
+
+</script>
